@@ -11,8 +11,7 @@
    Quem protege os dados são as regras do banco (banco/schema.sql).
    NUNCA coloque aqui a chave "service_role" (essa é secreta).
    ========================================================= */
-
 window.QC_CONFIG = {
-  SUPABASE_URL: "COLE_AQUI_A_URL_DO_PROJETO",
-  SUPABASE_ANON_KEY: "COLE_AQUI_A_CHAVE_ANON_PUBLICA",
+  SUPABASE_URL: "https://mugehoakktgtxqefturm.supabase.co/rest/v1/",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im11Z2Vob2Fra3RndHhxZWZ0dXJtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM2MzE3MTIsImV4cCI6MjEwOTIwNzcxMn0.7sPQeLAp3HgEBJ6FvOtRvUiHXJYtzwlIRrWxO8dTVMc",
 };
